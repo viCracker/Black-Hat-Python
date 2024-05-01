@@ -11,7 +11,7 @@ client.connect((target_host, target_port))
 
 # send some data
 client.send(b"GET / HTTP/1.1\r\nHost: 0.0.0.0\r\n\r\n")
-# client.send(b"ILOVEYOU")
+# client.send(b"name")
 
 # receive data
 response = client.recv(4096)
